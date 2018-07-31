@@ -1,0 +1,16 @@
+body {
+    background-color: #DEDEDE;
+}
+
+.jumbotron h1 {
+    text-align: center;
+}
+
+.jumbotron h4 {
+    text-align: center;
+}
+
+.jumbotron {
+    background-color: transparent;
+    height: 150px;
+}

@@ -1,0 +1,357 @@
+.navibar {
+    background-color: black;
+    height: 60px;
+}
+
+.navibar a {
+    margin-bottom: auto;
+    margin-top: auto;
+    color: white;
+    transition: color 0.25s;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25em;
+}
+
+.navibar a:hover {
+    margin-bottom: auto;
+    margin-top: auto;
+    color: #D3D3D3;
+}
+
+.spotify {
+    border: black solid 2px;
+    border-radius: 3px;
+}
+
+.colorBlock1 {
+    display: flex;
+    align-items: center;
+    background-image: url('../images/Jade.png');
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 625px;
+}
+
+.colorBlock2 {
+    display: flex;
+    align-items: center;
+    height: 400px;
+    background-color: #666666;
+}
+
+.colorBlock3 {
+    display: flex;
+    align-items: center;
+    height: 400px;
+    background-color: #DEDEDE;
+}
+
+.colorBlock4 {
+    height: 1650px;
+    background-color: #666666;
+}
+
+.colorBlock5 {
+    display: flex;
+    align-items: center;
+    height: 400px;
+    background-color: #DEDEDE;
+}
+
+.subButton {
+    background-color: #666666;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.subButton:hover {
+    background-color: #4B4B4B;
+}
+
+.subButton:active {
+    background-color: #383838;
+}
+
+#cb1Anim, #cb2Anim, #cb4AnimTitle, #cb4AnimResume {
+    position: relative;
+    left: -90px;
+    transition: opacity 1.25s, left 1.25s;
+    opacity: 0;
+}
+
+#cb3Anim {
+    position: relative;
+    left: 90px;
+    transition: opacity 1.25s, left 1.25s;
+    opacity: 0;
+}
+
+#cb4Anim1List, #cb4Anim2List, #cb4Anim3List, #cb4Anim4List, #cb4Anim5List, #cb4Anim6List,
+#cb4Anim1Position, #cb4Anim2Position, #cb4Anim3Position, #cb4Anim4Position, #cb4Anim5Position, #cb4Anim6Position  {
+    position: relative;
+    top: 90px;
+    transition: opacity 1.25s, top 1.25s;
+    opacity: 0;
+}
+
+.cb1LargeText {
+    font-family: 'Questrial', sans-serif;
+    color: black;
+    font-size: 6em;
+}
+
+.cb1SmallText{
+    font-family: 'Raleway', sans-serif;
+    color: darkgray;
+    font-size: 2em;
+    font-weight: 100;
+}
+
+.cb2SmallText, .cb4SmallText {
+    font-family: 'dosis', sans-serif;
+    color: #DEDEDE;
+    text-align: left;
+}
+
+.cb2LargeText {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color: #DEDEDE;
+    text-align: left;
+}
+
+.cb3SmallText {
+    font-family: 'dosis', sans-serif;
+    color: #666666;
+    text-align: left;
+}
+
+.cb3LargeText {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color: #666666;
+    text-align: left;
+}
+
+.cb4LargeText {
+    font-family: 'dosis', sans-serif;
+    font-weight: bold;
+    color: #DEDEDE;
+    text-align: left;
+}
+
+.cb4LargestText {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #DEDEDE;
+    text-align: left;
+}
+
+.cb5LargeText {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color: #666666;
+    text-align: center;
+}
+
+.cb5SmallText {
+    font-family: 'Montserrat', sans-serif;
+    color: #666666;
+    text-align: center;
+}
+
+.container hr {
+    background-color: #DEDEDE;
+}
+
+.pushBottomMargin {
+    margin-bottom: 60px;
+}
+
+pushBottomMarginLight {
+    margin-bottom: 20px;
+}
+
+.bottomBorder {
+    border-bottom: solid 2px gray;
+}
+
+.mobile {
+    position: relative;
+    display: none;
+}
+
+.mobile div {
+    top: 40px;
+}
+
+.faIconCb2 {
+    font-size: 8em;
+    color: #DEDEDE;
+}
+
+.faIconCb3 {
+    font-size: 8em;
+    color: #666666;
+}
+
+.techIcons {
+    font-size: 4em;
+    color: #DEDEDE;
+}
+
+.contactIcons {
+    font-size: 4em;
+    color: #666666;
+}
+
+.contactIcons:hover {
+    color :#545454;
+    cursor: pointer;
+}
+
+.centerItems {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textRightAlign {
+    text-align: right;
+}
+
+@media only screen and (max-width: 575px) {
+    .colorBlock1 {
+        height: 400px;
+    }
+
+    .navibar a {
+        font-size: 1.1em;
+    }
+
+    .colorBlock2 {
+        height: 700px;
+    }
+
+    .colorBlock3 {
+        height: 650px;
+    }
+
+    .cb1LargeText, .techIcons {
+        font-size: 3.5em;
+    }
+
+    .cb1SmallText {
+        font-size: 1.5em;
+    }
+
+    .cb2SmallText, .cb2LargeText, .cb3SmallText, .cb3LargeText {
+        text-align: center;
+    }
+
+    #cb2Left {
+        border-bottom-color: transparent;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    #cb1Anim, #cb2Anim, #cb3Anim, #cb4Anim1List, #cb4Anim2List, #cb4Anim3List, #cb4Anim4List, #cb4Anim5List, #cb4Anim6List,
+    #cb4Anim1Position, #cb4Anim2Position, #cb4Anim3Position, #cb4Anim4Position, #cb4Anim5Position, #cb4Anim6Position, #cb4AnimTitle,
+    #cb4AnimResume {
+        left: 0;
+        opacity: 1;
+        top: 0;
+    }
+
+    #cb4AnimTitle, #cb4AnimResume {
+        text-align: center;
+    }
+
+    .cb4LargeText {
+        text-align: center;
+    }
+
+    .colorBlock4 {
+        height: 3000px;
+    }
+
+}
+
+@media only screen and (min-width: 361px) and (max-width: 410px) {
+    .colorBlock1 {
+        background-position: -130px 0;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    .colorBlock2 {
+        height: 470px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .colorBlock1 {
+        background-position: 0px -90px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .colorBlock1 {
+        height: 500px;
+        background-position: -250px 0px;
+    }
+
+    .navibar a {
+        font-size: 1em;
+    }
+
+    .colorBlock2 {
+        height: 750px;
+    }
+
+    .techIcons {
+        font-size: 3em;
+    }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 576px) {
+    .cb1LargeText {
+        font-size: 4em;
+    }
+
+    .colorBlock1 {
+        height: 400px;
+    }
+
+    .colorBlock4 {
+        height: 2300px;
+    }
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+    .colorBlock4 {
+        height: 1800px;
+    }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 767px) {
+    .colorBlock4 {
+        height: 2400px;
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 576px) {
+
+    .colorBlock4 {
+        height: 3200px;
+    }
+}
+
